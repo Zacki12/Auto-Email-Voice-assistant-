@@ -19,7 +19,7 @@ except Exception as ex:
 
 reciver='muzammil.idrees.bsse-2018b@cecosian.edu.pk' 
 message=text
-sender=yagmail.SMTP('muzammil.idrees12@gmail.com')
+sender=yagmail.SMTP('xyz@gmail.com')
 sender.send(to=reciver,subject='This ia as automated mail', contents=message)   
 
 #Instagram: @zackkhan12
