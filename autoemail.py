@@ -17,7 +17,7 @@ except Exception as ex:
     print(ex)
 
 
-reciver='muzammil.idrees.bsse-2018b@cecosian.edu.pk' 
+reciver='example@gmail.com' 
 message=text
 sender=yagmail.SMTP('xyz@gmail.com')
 sender.send(to=reciver,subject='This ia as automated mail', contents=message)   
